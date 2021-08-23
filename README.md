@@ -60,6 +60,14 @@ make run
 # or
 ./hello_world.rs
 
+# autoformated rust (NO!)
+rustfmt hello_world.rs
+
+# ! is a macro
+
+# cargo
+cargo new hello_cargo (--vcs=git)
+
 ```
 
 &#xa0;
