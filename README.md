@@ -49,24 +49,46 @@ $ cd learning_rust
 
 # Install rust
 $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```
+## Without Cargo
+```bash
+# hello_world directory
+cd hello_world
 
 # To compile
-make compile
+make build
 # or
 rustc hello_world.rs
 
-# To execute
+# To compile and execute
 make run
 # or
 ./hello_world.rs
 
-# autoformated rust (NO!)
+# Autoformatted rust (NO!)
 rustfmt hello_world.rs
 
 # ! is a macro
-
-# cargo
+```
+## With Cargo
+```bash
+# Cargo
 cargo new hello_cargo (--vcs=git)
+
+# hello_cargo directory
+cd hello_cargo
+
+# To compile
+cargo build
+
+# To compile and execute
+cargo run
+
+# To check if your code compiles without an executable
+cargo check
+
+# To compile your project when it is finally ready for release
+cargo build --release
 
 ```
 
