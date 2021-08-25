@@ -2,7 +2,7 @@
 
 </div>
 
-<h1 align="center"> 🦀 Learning Rust ⚙ </h1>
+<h1 align="center"> <img src="https://doc.rust-lang.org/stable/book/img/ferris/does_not_compile.svg" alt="rust" width="100" height="100"> Learning Rust <img src="https://doc.rust-lang.org/stable/book/img/ferris/panics.svg" alt="rust" width="100" height="100"> </h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/anoliveisolcap/learning_rust?color=ff6600">
@@ -25,7 +25,7 @@
 
 ## About ##
 
-Project to learn rust
+Project to learn rust using this magic [book](https://doc.rust-lang.org/stable/book/print.html)
 
 ## Technologies ##
 
@@ -91,6 +91,28 @@ cargo check
 cargo build --release
 
 ```
+Rust [keywords](https://doc.rust-lang.org/stable/book/appendix-01-keywords.html)
+Rust [operators](https://doc.rust-lang.org/stable/book/appendix-02-operators.html)
+
+Variables types:
+- String
+
+- Integer types:
+
+| Length | Signed | Unsigned | Until |
+| ------ | ------ | -------- | ----- |
+| 8-bit | i8 | u8 | 128 |
+| 16-bit | i16 | u16 | 32,768 |
+| 32-bit | i32 | u32 | 2,147,483,648 |
+| 64-bit | i64 | u64 | 9.223e18 |
+| 128-bit | i128 | u128 | 1.701e38 |
+| arch | isize | usize | depends on de computer |
+
+- Floating-point numbers:<br>
+f32 and f64
+
+- Boolean:<br>
+bool (true or false)
 
 &#xa0;
 
