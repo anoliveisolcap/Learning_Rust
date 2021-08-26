@@ -114,6 +114,13 @@ f32 and f64
 - Boolean:<br>
 bool (true or false)
 
+Data types:
+tuples and arrays
+
+conditions must be a bool
+
+
+
 &#xa0;
 
 <a href="#top">Back to top</a>

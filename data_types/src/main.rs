@@ -1,4 +1,7 @@
+use std::io;
+
 fn main() {
+
     //integer
     let x = -5;//i32
     let x = x - 1;
@@ -27,4 +30,20 @@ fn main() {
     let z = tup.2;
     println!("tup is {} {} {}", x, y, z);
 
+    //array
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    println!("a o is {}", a[0]);
+    let a = [3; 5];
+    let mut i = 0;
+    while i < 5  {
+        println!("a {} is {}", i, a[i]);
+        i+=1;
+    }
+    let a = [0, 1, 2, 3, 4 ,5];
+    println!("Please choose an index to print.");
+    let mut index =  String::new();
+    io::stdin().read_line(&mut index).expect("Failed to read line.");
+    let index: usize = index.trim().parse().expect("Index is not a number.");
+    let element = a[index];
+    println!("The value od the element at index {} is {}", index, element);
 }
